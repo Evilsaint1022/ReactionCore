@@ -8,7 +8,7 @@
 Welcome to **ReactionCore** - a modular Discord bot built as a fun hobby project!  
 This bot is completely open-source to promote transparency and inspire others to create their own bots.
 
-I got tired of relying on bots that constantly went offline or became unusable, so I decided to build a single, reliable Discord bot that combines many of the best features from popular free bots into one solution.
+This is a simple Discord reaction bot, developed primarily for the purpose of learning how to host applications on a Raspberry Pi.
 
 〉**This code is free to use.**  
 〉**Currently Running on a Rasberry Pi**  
