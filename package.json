@@ -12,12 +12,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Evilsaint1022/CheekyCharlie.git"
+    "url": "git+https://github.com/Evilsaint1022/ReactionCore.git"
   },
   "bugs": {
-    "url": "https://github.com/Evilsaint1022/CheekyCharlie/issues"
+    "url": "https://github.com/Evilsaint1022/ReactionCore/issues"
   },
-  "homepage": "https://github.com/Evilsaint1022/CheekyCharlie#readme",
+  "homepage": "https://github.com/Evilsaint1022/ReactionCore#readme",
   "dependencies": {
     "@discordjs/builders": "^1.14.1",
     "@discordjs/rest": "^2.6.1",
