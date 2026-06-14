@@ -193,5 +193,18 @@ client.on("messageCreate", async (message) => {
   }
 });
 
+const handleTerminationSignal = (signal) => {
+  console.log(`Received ${signal}, shutting down gracefully...`.bold.yellow);
+};
+
+process.once('SIGTERM', () => {
+  handleTerminationSignal('SIGTERM');
+});
+
+process.once('SIGINT', () => {
+  handleTerminationSignal('SIGINT');
+});
+
+
 // Client Login ---------------------------------------------------------------------------------------------------------------------
 client.login(process.env.TOKEN);
