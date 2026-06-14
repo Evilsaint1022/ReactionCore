@@ -1,9 +1,3 @@
-// Index.js -------------------------------------------------------------------------------------------------------------------------
-//
-// ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-//             Created by Evilsaint1022
-// ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-//
 // ------------------------------------------------- @Index.js ----------------------------------------------------------------------
 
 require('dotenv').config({ quiet: true });
@@ -131,7 +125,8 @@ setInterval(() => {
 
     // Bisechosting Finished Startup!
     console.log(`successfully finished startup`.bold.green);
-    // CheekyCharlie is Online!
+
+    // ReactionCore is Online!
     console.log(`🌿・${client.user.tag} Is Online!`.bold.white);
 });
 
@@ -163,8 +158,6 @@ client.defaultPrefix = "?"; // 👈 default fallback prefix
 
 client.on("messageCreate", async (message) => {
   if (message.author.bot || !message.guild) return;
-
-  const guildId = message.guild.id;
 
   // 👇 USE DB PREFIX OR FALLBACK
   const prefix = client.defaultPrefix;
@@ -198,21 +191,6 @@ client.on("messageCreate", async (message) => {
   } catch (error) {
     console.error(`[Prefix Command Error] ${commandName}:`, error);
   }
-});
-
-const handleTerminationSignal = async (signal) => {
-  await shutdownBot(client, {
-    exitCode: 0,
-    reason: signal
-  });
-};
-
-process.once('SIGTERM', () => {
-  handleTerminationSignal('SIGTERM');
-});
-
-process.once('SIGINT', () => {
-  handleTerminationSignal('SIGINT');
 });
 
 // Client Login ---------------------------------------------------------------------------------------------------------------------
