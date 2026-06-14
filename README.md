@@ -1,4 +1,13 @@
-# 🌿 <ins>**ReactionCore Discord Bot**</ins> 🌿
+<table align="center">
+  <tr>
+    <td>
+      <img src="src/Utilities/ReactionCore/reactioncore.png" alt="ReactionCore Logo" height="100">
+    </td>
+    <td>
+      <h2> ReactionCore Discord Bot </h2>
+    </td>
+  </tr>
+</table>
 
 ![Status](https://img.shields.io/badge/%20Status-%20Active-44cc11)
 [![Open Source](https://img.shields.io/badge/Open%20Source-Yes-44cc11)](https://github.com/)
