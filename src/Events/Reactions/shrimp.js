@@ -30,9 +30,9 @@ module.exports = {
 
             } catch (error) {
             // Ignore Error: Unknown Emoji
-            if (err.code !== 10014) return;
-            if (err.code !== 30010) return;
-            if (err.code !== 98881) return;
+            if (error.code !== 10014) return;
+            if (error.code !== 30010) return;
+            if (error.code !== 98881) return;
             console.error('Failed to react with shrimp emoji:', error);
             }
         }
