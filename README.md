@@ -19,7 +19,7 @@ This bot is completely open-source to promote transparency and inspire others to
 
 This is a simple Discord reaction bot, developed primarily for the purpose of learning how to host applications on a Raspberry Pi.
 
-**This code is free to use.**  
-**Currently Running on a Rasberry Pi**  
-**Created by Evilsaint1022 (Owner, Developer)**  
+🔸**This code is free to use.**  
+🔸**Currently Running on a Rasberry Pi**  
+🔸**Created by Evilsaint1022 (Owner, Developer)**  
 
