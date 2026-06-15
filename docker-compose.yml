@@ -1,11 +1,11 @@
 services:
-  reactioncore:
+  raspberry:
     build: .
-    container_name: reactioncore
+    container_name: raspberry
     restart: unless-stopped
     environment:
       TOKEN: ${TOKEN}
       CLIENT_ID: ${CLIENT_ID}
       GUILD_ID: ${GUILD_ID}
     volumes:
-      - /srv/reactioncore/storage:/app/src/Utilities/Storage
+      - /srv/raspberry/storage:/app/src/Utilities/Storage
