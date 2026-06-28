@@ -100,6 +100,6 @@ module.exports = async (client) => {
     }
   }
 
-  console.log(table.toString());
-  console.log('\x1b[37m%s\x1b[0m', '(✅・Successfully Loaded Prefix Commands)'.bold.green);
+  // console.log(table.toString());
+  // console.log('\x1b[37m%s\x1b[0m', '(✅・Successfully Loaded Prefix Commands)'.bold.green);
 };

@@ -60,8 +60,8 @@ function loadEvents(client) {
     }
 
     // Print the table of events and a success message
-    console.log(table.toString());
-    console.log('\x1b[37m%s\x1b[0m', '(✅・Successfully Loaded Events)'.bold.green); // .bold.white equivalent
+    // console.log(table.toString());
+    // console.log('\x1b[37m%s\x1b[0m', '(✅・Successfully Loaded Events)'.bold.green); // .bold.white equivalent
 }
 
 module.exports = { loadEvents };
